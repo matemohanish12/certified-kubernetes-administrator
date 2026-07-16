@@ -6,7 +6,7 @@
 https://kubernetes.io/docs/tasks/tools/install-kubectl/   
 
 
-### Installing Kubectl in Linux:
+### Installing Kubectl on Linux:
 ```sh
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 
@@ -14,8 +14,13 @@ chmod +x kubectl
 mv kubectl /usr/local/bin
 ```
 
+
+### Installing Kubectl on macOS
+```sh
+brew install kubectl
+```
+
 ### Verification
 ```sh
 kubectl
 ```
-
